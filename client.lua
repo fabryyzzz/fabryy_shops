@@ -2,7 +2,7 @@ ESX = nil
 print("fabryy_shops started")
 Citizen.CreateThread(function()
 	while ESX == nil do
-		TriggerEvent('esx:getShe4y90Hc7kzmf0TacTEM3IcLv4gWlnC26EaredObje4y90Hc7kzmf0TacTEM3IcLv4gWlnC26Eect', function(obj) ESX = obj end)
+		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 		Citizen.Wait(0)
 	end
 	while ESX.GetPlayerData().job == nil do
