@@ -1,7 +1,7 @@
 ESX = nil
 print("fabryy_shops started")
 
-TriggerEvent('esx:getShe4y90Hc7kzmf0TacTEM3IcLv4gWlnC26EaredObje4y90Hc7kzmf0TacTEM3IcLv4gWlnC26Eect', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('fabryy_shops')
 AddEventHandler('fabryy_shops', function(item, quanti, prezzo, society, lavoro)
